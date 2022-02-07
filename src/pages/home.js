@@ -1,0 +1,119 @@
+const HomePage = {
+    render() {
+        return `
+        <section class="banner">
+        <img src="./images/banner/-FreshFood -.jpg" alt="" />
+      </section>
+        <div class="main bg-[#80b435] w-[1600px]">
+        <h1
+          class="title uppercase text-center text-white text-[20px] pt-[10px] font-normal"
+        >
+          thực phẩm mới nhất
+        </h1>
+        <p class="text-center text-[25px] text-white">
+          <i class="fab fa-pagelines"></i>
+        </p>
+        <div class="products w-[1170px] mx-auto flex flex-row flex-wrap">
+          <div
+            class="product w-[272px] h-[416px] bg-white mr-[20px] inline-block mt-[38px] mb-[40px]"
+          >
+            <div class="logo">
+              <img src="./images/product/img-pro-03.png" alt="" />
+            </div>
+  
+            <div
+              class="content-product text-center py-[10px] border-solid border-[#b7b7b7] border-t-2"
+            >
+              <h1 class="title font-bold text-[20px]">Xà lách Lâm Đồng</h1>
+              <p class="price text-[15px]">25.000 VNĐ</p>
+              <form action="">
+                <button type="button" class="text-[14px]">
+                  Thêm vào giỏ hàng
+                </button>
+              </form>
+            </div>
+          </div>
+          <div
+            class="product w-[272px] h-[416px] bg-white mr-[20px] inline-block mt-[38px] mb-[40px]"
+          >
+            <div class="logo">
+              <img src="./images/product/img-pro-03.png" alt="" />
+            </div>
+  
+            <div
+              class="content-product text-center py-[10px] border-solid border-[#b7b7b7] border-t-2"
+            >
+              <h1 class="title font-bold text-[20px]">Xà lách Lâm Đồng</h1>
+              <p class="price text-[15px]">25.000 VNĐ</p>
+              <form action="">
+                <button type="button" class="text-[14px]">
+                  Thêm vào giỏ hàng
+                </button>
+              </form>
+            </div>
+          </div>
+          <div
+            class="product w-[272px] h-[416px] bg-white mr-[20px] inline-block mt-[38px] mb-[40px]"
+          >
+            <div class="logo">
+              <img src="./images/product/img-pro-03.png" alt="" />
+            </div>
+  
+            <div
+              class="content-product text-center py-[10px] border-solid border-[#b7b7b7] border-t-2"
+            >
+              <h1 class="title font-bold text-[20px]">Xà lách Lâm Đồng</h1>
+              <p class="price text-[15px]">25.000 VNĐ</p>
+              <form action="">
+                <button type="button" class="text-[14px]">
+                  Thêm vào giỏ hàng
+                </button>
+              </form>
+            </div>
+          </div>
+          <div
+            class="product w-[272px] h-[416px] bg-white mr-[20px] inline-block mt-[38px] mb-[40px]"
+          >
+            <div class="logo">
+              <img src="./images/product/img-pro-03.png" alt="" />
+            </div>
+  
+            <div
+              class="content-product text-center py-[10px] border-solid border-[#b7b7b7] border-t-2"
+            >
+              <h1 class="title font-bold text-[20px]">Xà lách Lâm Đồng</h1>
+              <p class="price text-[15px]">25.000 VNĐ</p>
+              <form action="">
+                <button type="button" class="text-[14px]">
+                  Thêm vào giỏ hàng
+                </button>
+              </form>
+            </div>
+          </div>
+  
+          <div
+            class="product w-[272px] h-[416px] bg-white mr-[20px] inline-block mt-[38px] mb-[40px]"
+          >
+            <div class="logo">
+              <img src="./images/product/img-pro-03.png" alt="" />
+            </div>
+  
+            <div
+              class="content-product text-center py-[10px] border-solid border-[#b7b7b7] border-t-2"
+            >
+              <h1 class="title font-bold text-[20px]">Xà lách Lâm Đồng</h1>
+              <p class="price text-[15px]">25.000 VNĐ</p>
+              <form action="">
+                <button type="button" class="text-[14px]">
+                  Thêm vào giỏ hàng
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+        `
+    },
+};
+
+export default HomePage;
