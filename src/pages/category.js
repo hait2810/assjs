@@ -1,22 +1,22 @@
 
 import Header from "../components/header";
 import axios from 'axios';
-import { getAll } from "../api/products";
+import { getSP } from "../api/cate";
 
-const HomePage = {
-  async render() {
+const spCate = {
+  async render(id) {
     
-    const {data} = await getAll()
+    const {data} = await getSP(id)
     return /* html */ `
     ${await Header.render()}
         <section class="banner w-[1600px]">
-      <img src="./images/banner/-FreshFood -.jpg" class="w-[100%]" alt="" />
+      <img src="https://res.cloudinary.com/hait-10/image/upload/v1645433824/ilizj95zrn86xagh5av7.jpg" class="w-[100%]" alt="" />
     </section>
       <div class="main bg-[#80b435] w-[1600px]">
       <h1
         class="title uppercase text-center text-white text-[20px] pt-[10px] font-normal"
       >
-        thực phẩm mới nhất
+        Sản Phẩm Theo Danh Mục
       </h1>
       <p class="text-center text-[25px] text-white">
         <i class="fab fa-pagelines"></i>
@@ -57,4 +57,4 @@ const HomePage = {
   }
 }
 
-export default HomePage;
+export default spCate;

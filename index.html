@@ -7,16 +7,30 @@
     <title>Vite App</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./rs.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="./rs.css">
     <link rel="stylesheet" href="./style.css" />
+  <style>
+    .menu .subnav{
+      display: none;
+    }
+    .menu ul>li:hover .subnav {
+      display: block;
+    }
+  </style>
+
   </head>
   <body>
-    <div class="bgxanh bg-[#80b435] w-[1600px]">
+    
+    <div id="app">
+      
+    </div>
+   
+    <!-- <div class="bgxanh bg-[#80b435] w-[1600px]">
       <div class="header w-[1170px] mx-auto flex flex-row justify-between">
         <div class="logo my-[10px]">
-          <img src="./images/logo/logo.png" alt="" />
+          <img src="/images/logo/logo.png" alt="" />
         </div>
         <nav class="menu leading-[75px]">
           <ul>
@@ -34,6 +48,19 @@
                 >giới thiệu</a
               >
             </li>
+            <li class="inline mx-[15px] relative">
+              <a
+                class="uppercase text-white hover:border-b-2 border-solid border-white-600"
+                href=""
+                >danh mục</a
+              >
+              <ul class="subnav  top-[235%] left-0 min-w-[100px] shadow-lg absolute">
+               ${data.map((cate) => `
+               <li class="leading-[30px] hover:bg-red-200"><a class="p-[10px]" href="">${cate.name}</a></li>
+   
+               `)}
+              </ul>
+            </li>
             <li class="inline mx-[15px]">
               <a
                 class="uppercase text-white hover:border-b-2 border-solid border-white-600"
@@ -45,7 +72,7 @@
               <a
                 class="uppercase text-white hover:border-b-2 border-solid border-white-600"
                 href=""
-                >bảng điều khiển</a
+                >Tin tức</a
               >
             </li>
           </ul>
@@ -65,13 +92,152 @@
               ></i>
             </button>
           </form>
+         <div id="loga" class="accounts mt-[10px]"> 
+         <span id="account" class="text-white"> </span>
+        ${localStorage.getItem('user') ? ' <button id="logout" class="text-white"> Đăng xuất </button>' : '<a class="text-white" href="/#/signin"> Đăng nhập </a>'}
+         </div>
+
         </div>
       </div>
      
-    </div>
-    <div id="app">
-      
-    </div>
+    </div> -->
+
+    <!-- cart -->
+   
+    
+   
+    
+      <!--  <div class="account w-[456px] mx-auto  bg-[#fff] font-serif	my-[20px]	rounded-[20px] ">
+          <div class="btn bg-[#fafafa] flex justify-between items-center h-[60px] px-[45px] font-bold rounded-t-[20px]">
+            <h4><a href="">ĐĂNG NHẬP</a></h4>
+            <h4><a href="">ĐĂNG KÝ</a></h4>
+          </div>
+          <div class="form shadow-lg rounded-[20px]">
+            <form action="" class="">
+              <div class="forms flex flex-col p-[20px] ">
+                <input type="text" placeholder="Email" class="rounded-[20px] p-[5px] border-[1px] border-solid" name="" id="">
+              <input type="password" placeholder=".............." class="my-[10px] rounded-[20px] p-[5px] font-bold border-[1px] border-solid" name="" id="">
+              <button type="button" class="bg-[#c70808] rounded-[20px] h-[45px] text-white w-[100%]">ĐĂNG NHẬP</button>
+              </div>
+            </form>
+          </div>
+      </div> -->
+      <!--Đăng ký đăng nhập -->
+      <!-- <div class="content w-[1600px]">
+          <div class="detail w-[1170px] mx-auto my-[30px]">
+                <div class="product_detail flex justify-between">
+                  <div class="logo_product w-[436px] h-[506px] border-[1px] border-green-500 border-solid ">
+                    <img src="./images/product/img-pro-03.png" alt="">
+                  </div>
+                  <div class="heading w-[322px] ">
+                    <div class="icon text-yellow-300 mb-[15px]">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <h2 class="title font-bold text-[20px] mb-[5px]">
+                      Cá hồi bắc âu
+                    </h2>
+                    <span class="id_product text-[11px] mb-[5px] block text-green-600">
+                      Mã sản phẩm : HIT0001
+                    </span>
+                    <h3 class="price font-bold text-[16px] mb-[15px]">
+                      250.000 VNĐ
+                    </h3>
+                    <p class="description border-[1px] border-green border-dashed text-justify p-[3px] text-[14px] mb-[15px] text-green-600">
+                      Cá hồi (Salmon) sinh sống dọc các bờ biển tại Bắc Đại Tây Dương (các họ di cư Salmo salar) và Thái Bình Dương (khoảng sáu họ của giống Oncorhynchus),cũng đã từng được đưa tới Hồ lớn ở trên thế giới.
+                    </p>
+                    <button type="button" class="bg-[#55a007] p-[10px] text-white">THÊM VÀO GIỎ HÀNG</button>
+                  </div>
+                  <div class="ships w-[328px]">
+                      <div class="ship  border-[1px] border-solid border-green-500 p-[5px] text-justify mb-[10px]">
+                        <p><i class="far fa-thumbs-up"></i> Cam kết giá tốt nhất Chúng tôi cam kết tới khách hàng những sản phẩm tốt nhất với mức thấp nhất</p>
+                      </div>
+                      <div class="ship border-[1px] border-solid border-green-500 p-[5px] text-justify mb-[10px]">
+                        <p><i class="fas fa-shipping-fast"></i> Giao hàng toàn quốc Giao hàng tới 64 tỉnh thành với giá cước hợp lý nhất. Đảm bảo thời gian tốt nhất.</p>
+                      </div>
+                      <div class="ship border-[1px] border-solid border-green-500 p-[5px] text-justify mb-[10px]">
+                        <p><i class="fas fa-clock"></i> Phục vụ 24/24 Giao hàng tới 64 tỉnh thành với giá cước hợp lý nhất. Thời gian đối với chúng tôi là vàng.</p>
+                      </div>
+                  </div>
+                </div>
+          </div>
+      </div> -->
+      <!-- DETAIL -->
+      <!-- <div class="content w-[1600px] bg-[#80b435] my-[5px]">
+          <div class="dashboard w-[1170px] mx-auto py-[10px] ">
+              <ul class="flex justify-center" >
+                <li class="pr-[20px]"><a class="uppercase text-white hover:border-b-2 border-solid" href="">Trang chủ</a></li>
+                <li class="pr-[20px]"><a class="uppercase text-white hover:border-b-2 border-solid" href="">Thêm sản phẩm</a></li>
+                <li class="pr-[20px]"><a class="uppercase text-white hover:border-b-2 border-solid" href="">Trang chủ</a></li>
+                <li class="pr-[20px]"><a class="uppercase text-white hover:border-b-2 border-solid" href="">Trang chủ</a></li>
+              </ul>
+          </div>
+      </div> -->
+      <!-- DASHBOARD -->
+      <!-- <div class="form-product w-[1600px]">
+        <div class="input w-[1170px] mx-auto my-[20px]">
+          <h2 class="font-bold text-[30px] text-green-800">THÊM SẢN PHẨM</h2>
+          <form action="">
+              <table border="1" >
+             
+                  <tr class="h-[40px]">
+                    <td ><label class="font-bold text-[20px] text-green-800" for="">Tên Sản Phẩm : </label></td>
+                    <td > <input type="text"  class="border-[1px]" name="" id=""></td>
+                  </tr>
+               
+            
+                <tr class="h-[40px]">
+                  <td><label class="font-bold text-[20px] text-green-800" for="">Giá : </label></td>
+                  <td> <input type="text"  class="border-[1px]" name="" id=""></td>
+                </tr>
+               
+              
+                <tr class="h-[40px]">
+                  <td><label class="font-bold text-[20px] text-green-800" for="">Ảnh : </label></td>
+                  <td> <input type="file"  class="border-[1px]" name="" id=""></td>
+                </tr>
+               
+              
+                <tr class="h-[50px]">
+                  <td><label class="font-bold text-[20px] text-green-800" for="">Mô tả : </label></td>
+                  <td> <textarea name="" class="border-[1px]" id="" cols="38" rows="2"></textarea> </td>
+                </tr>
+                <tr class="h-[50px]">
+                  
+                  <td><button class="bg-green-500 p-[8px] rounded-[8px] text-white" type="button">Thêm sản phẩm</button></td>
+                </tr>
+              
+              </table>
+            </form>
+        </div>
+      </div> -->
+
+      <!-- Sửa Thêm -->
+      <!-- <div class="w-[1600px] bg-pink-100">
+        <div class="news w-[1170px] mx-auto">
+          <table class="border-collapse w-[100%]">
+            <tr class="bg-[#04AA6D]">
+              <th class="border-[1px] border-solid border-[#ddd] p-[8px]">ID</th>
+              <th class="border-[1px] border-solid border-[#ddd] p-[8px]">Tên sản phẩm</th>
+              <th class="border-[1px] border-solid border-[#ddd] p-[8px]">Giá</th>
+              <th class="border-[1px] border-solid border-[#ddd] p-[8px]">Ảnh</th>
+              <th class="border-[1px] border-solid border-[#ddd] p-[8px]">Mô tả</th>
+            </tr>
+            <tr class="hover:bg-pink-600">
+              <td class="border-[1px] border-solid border-[#ddd] w-[100px] p-[8px]">1</td>
+              <td class="border-[1px] border-solid border-[#ddd] p-[8px] w-[100px]">Rau</td>
+              <td class="border-[1px] border-solid border-[#ddd] w-[100px] p-[8px]">25.000 VNĐ</td>
+              <td class="border-[1px] border-solid border-[#ddd] p-[8px] w-[100px]"><img src="./images/product/img-pro-03.png" class="w-[100%] h-[50px] mx-auto" alt=""></td>
+              <td class=" text-[12px] border-[1px] border-solid border-[#ddd] p-[8px]">Mô tả ngắn cho website hay còn gọi là meta description là một trong những yếu tố cực kỳ quan trọng trong seo onpage. Vì yếu tố đó là quan trọng nên bài viết này tôi sẽ chia sẻ cho các bạn cách viết một đoạn mô tả ngắn cho website như thế nào để thực sự chuẩn, chuẩn ở đây không những chuẩn seo mà còn chuẩn với người dùng nữa.</td>
+            </tr>
+        
+          </table>
+        </div>
+      </div> -->
+      <!-- NEWS -->
     <footer>
       <p class="text-center w-[1600px] py-[20px]">
         Copyright © 2022 - All rights reserved

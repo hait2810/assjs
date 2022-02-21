@@ -1,0 +1,138 @@
+{
+  "products": [
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434121/msivjgmjyuwfri0gdyym.jpg",
+      "name": "Ba chỉ bò",
+      "price": "200000",
+      "des": "Ba chỉ bò Mỹ đông lạnh - Frozen Boneless Beef Short Plate Xuất xứ : Mỹ Thành phần : Thịt bò Bảo quản: ≤ -18 o C Hạn sử dụng : 18 tháng kể từ ngày sản xuất Chế biến món ăn theo yêu cầu. Không sử dụng khi sản phẩm hết HSD\n",
+      "categoryId": "2",
+      "id": 1
+    },
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434193/urklmbol4a9z8uymk3mg.jpg",
+      "name": "Cá hồi tươi phi lê",
+      "price": "100000",
+      "des": "Ba chỉ bò Mỹ đông lạnh - Frozen Boneless Beef Short Plate Xuất xứ : Mỹ Thành phần : Thịt bò Bảo quản: ≤ -18 o C Hạn sử dụng : 18 tháng kể từ ngày sản xuất Chế biến món ăn theo yêu cầu. Không sử dụng khi sản phẩm hết HSD\n",
+      "categoryId": "2",
+      "id": 2
+    },
+    {
+      "img": "https://res.cloudinary.com/hait-10/image/upload/v1645434499/qpu5acwi5xu4uz17lfu6.jpg",
+      "name": "Cá ngừ đông lạnh",
+      "price": "140000",
+      "des": "Cá ngừ đại dương được ngư dân Quảng Ngãi đánh bắt xa bờ trong thời gian ngắn. Chính vì vậy, chất lượng cá luôn đảm bảo tươi ngon. Nghiên cứu cho thấy omega-3 acid béo, thấy rất nhiều trong cá nhiều mỡ như cá ngừ, có thể giúp giảm nguy cơ bệnh tim cho mọi lứa tuổi, giảm đau của viêm khớp, giảm biến chứng của bệnh hen suyễn, và là điều cần thiết trong việc tăng trưởng và phát triển của trẻ nhỏ. Thịt Cá ngừ đại dương đã bỏ da, xương, đông lạnh, chất lượng tươi ngon, giá trị dinh dưỡng cao, rất tốt cho sức khỏe do có chứa hàm lượng lớn protein, vitamin và khoáng chất, giảm huyết áp và cholesterol. Các cách chế biến cá ngừ đại dương: – Sashimi cá ngừ đại dương. – Cá ngừ đại dương tái chanh. – Cá ngừ nướng ngũ vị. – Cá người lăn tiêu tái. – Lẩu cá ngừ đại dương. – Lúc lắc cá ngừ đại dương.\n",
+      "categoryId": "2",
+      "id": 3
+    },
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434600/ed7l942xkh02ovee8ce5.jpg",
+      "name": "Dẻ sườn bò Mỹ ",
+      "price": "150000",
+      "des": "Frozen Boneless Beef Rib Fingers – Dẻ sườn bò Mỹ đông lạnh              Xuất xứ : Mỹ Thành phần : Thịt bò Bảo quản: ≤ -18 độ C HSD : 18 tháng kể từ ngày sản xuất Chế biến món ăn theo yêu cầu. Không sử dụng khi sản phẩm hết HSD\n",
+      "categoryId": "2",
+      "id": 4
+    },
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434814/xdskxozvzfinifuwbriw.jpg",
+      "name": "Cà rốt baby khay 500g",
+      "price": "42000",
+      "des": "Cà rốt baby là một loại củ rất quen thuộc trong các món ăn của người Việt, cà rốt baby có kích thước nhỏ hơn cà rốt thông thường. Loại củ này có hàm lượng chất dinh dưỡng và vitamin A cao, được xem là nguyên liệu cần thiết cho các món ăn dặm của trẻ nhỏ, giúp sáng mắt và nguồn chất xơ dồi dào.\n",
+      "categoryId": "1",
+      "id": 5
+    },
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434893/kgz3rzc74bethbkil20g.jpg",
+      "name": "Hành tây túi 500g",
+      "price": "12500",
+      "des": "Hành tây là một loại củ phổ biển được sử dụng trong rất nhiều món ăn của người Việt và trên toàn thế giới. Loại rau củ này chứa khá nhiều vitamin và khoáng chất có công dụng cho sức khỏe. Hành tây có thể dùng để chiên, xào, nướng hoặc có thể ăn sống đểu rất ngon.",
+      "categoryId": "1",
+      "id": 6
+    },
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434936/ng2wdbl7h48ucqqvojov.jpg",
+      "name": "Lá giang tươi gói 200g",
+      "price": "12500",
+      "des": "Lá giang gói 200g là một loại rau có vị chua chua, giúp cho món ăn của bạn có vị chua ngon đậm đà vô cùng. Lá giang có thể dùng làm nguyên liệu cho nhiều món ăn thơm ngon như canh cá lá giang, lẩu gà lá giang,.... thơm ngon, cả nhà ai cũng thích\n",
+      "categoryId": "1",
+      "id": 7
+    },
+    {
+      "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434974/q9y6lf1mlpqbevgeyzt7.jpg",
+      "name": "Cải chua trộn sẵn gói",
+      "price": "18000",
+      "des": "Món cảy sậy ngâm chua ngọt - Bách Hóa Xanh là món rau ăn kèm dân giã và quen thuộc với rất nhiều gia đình Việt. Vị rau cải giòn giòn thêm một chút chua chua ngọt ngọt do được ngâm lên men trong thời gian quy định giúp cho người dùng cảm thấy ngon miệng, kích thích vị giác.\n",
+      "categoryId": "1",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "email": "haibong2001@gmail.com",
+      "password": "$2a$10$Z98nK1n4AeaarVqYud9VHe.YNv53y.5F54uEZYAj5FqPpPMEldkIa",
+      "username": "haibrave",
+      "id": 1
+    },
+    {
+      "email": "haibong2001@gmail.coma",
+      "password": "$2a$10$4WMDwND5c22zZaHsCM1cleVDzYBWyPUe2xjmcR/K20.kA851F2NjK",
+      "username": "haibrave",
+      "id": 2
+    },
+    {
+      "email": "haibravex@gmail.com",
+      "password": "$2a$10$XQR3XUuHahIIuag707DQ0.vT25k00SOS3ZfVqUTQ3IIYC7vO4i5hS",
+      "username": "haibravex",
+      "id": 3
+    },
+    {
+      "email": "haibrave2001.1@gmail.com",
+      "password": "$2a$10$3f8/XnXkRwlfjun5c8VcgOJ.eK9tZrfGJWnhJqUuqvKXpuPwUXejC",
+      "username": "haibrave2001.1@gmail.com",
+      "id": 4
+    }
+  ],
+  "categorys": [
+    {
+      "name": "Rau củ quả",
+      "id": 1
+    },
+    {
+      "name": "Thịt",
+      "id": 2
+    }
+  ],
+  "carts": [
+    {
+      "hang": [
+        {
+          "img": "https://bizweb.dktcdn.net/thumb/medium/100/010/432/products/green-zucchini-1.jpg?v=1530625705000",
+          "name": "Bí Ngồi Xanh",
+          "price": "18500",
+          "des": "Khoai lang nhật có vỏ màu đỏ tím, ruột vàng, trái dài. Vị ngọt, dẻo, thơm. Vừa là một món ăn chơi vừa có thể dùng để chữa bệnh. Là một thực phẩm cân bằng dinh dưỡng nhất.",
+          "id": "3",
+          "quantity": 1
+        },
+        {
+          "img": "http://res.cloudinary.com/hait-10/image/upload/v1645335500/ybsd8pfehoinnhiaeaw7.jpg",
+          "name": "Bí Đao 500gg",
+          "price": "1850013",
+          "des": "a",
+          "categoryId": "1",
+          "id": "HxMYpZ4",
+          "quantity": 1
+        },
+        {
+          "img": "http://res.cloudinary.com/hait-10/image/upload/v1645197064/g36ucwmc8zwsfncsu5bl.jpg",
+          "name": "Hải Nguyễn",
+          "price": "1850013",
+          "des": "Khoai lang nhật có vỏ màu đỏ tím, ruột vàng, trái dài. Vị ngọt, dẻo, thơm. Vừa là một món ăn chơi vừa có thể dùng để chữa bệnh. Là một thực phẩm cân bằng dinh dưỡng nhất.",
+          "id": "2",
+          "quantity": 1
+        }
+      ],
+      "address": "Doi 6 Van Hoi Ninh Giang Hai Duong, Doi 6 Van Hoi Ninh Giang Hai Duong",
+      "phone": "0339325678",
+      "id": 1
+    }
+  ]
+}
