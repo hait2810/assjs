@@ -13,7 +13,7 @@ import EditC from './admin/editcate';
 import Cart from './pages/cart';
 import showCart from './admin/showcart';
 import spCate from './pages/category';
-
+import searchU from './pages/serach';
 const router = new Navigo("/", { linksSelector: "a", hash:true });
 const print = async (content, id) => {
    document.getElementById("app").innerHTML = await content.render(id);
@@ -79,6 +79,9 @@ router.on({
    },
    "/category/:id": ({data}) => {
       print(spCate, data.id);
+   },
+   "/search/:input": ({data}) => {
+      print(searchU, data.input);
    }
   
 });

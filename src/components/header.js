@@ -62,9 +62,9 @@ async render() {
                 class="rounded-[3px]"
                 name=""
                 placeholder="Bạn muốn tìm gì?"
-                id=""
+                id="search"
               />
-              <button type="button">
+              <button id="btn_search" type="button">
                 <i
                   class="fas fa-search rounded-[3px] bg-white translate-x-[-8px] pb-[3px] pt-[4.8px]"
                 ></i>
@@ -82,6 +82,11 @@ async render() {
         `;
     },
     afterRender(){
+      const btn_search = document.querySelector("#btn_search");
+      const search = document.querySelector("#search").value;
+      btn_search.addEventListener("click", function(){
+          document.location.href='/search/'+search
+      })
        const acc = document.querySelector("#account");
        const btnlogout = document.querySelector("#logout");
        acc.innerHTML = JSON.parse(localStorage.getItem('user')).email;
