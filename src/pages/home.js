@@ -18,7 +18,7 @@ const HomePage = {
       >
         thực phẩm mới nhất
       </h1>
-
+      
       <p class="text-center text-[25px] text-white">
         <i class="fab fa-pagelines"></i>
       </p>
@@ -46,7 +46,7 @@ const HomePage = {
            </form>
          </div>
        </div>
-         `).join("")
+         `).join("")}
           
         <!-- end product -->
       </div>
