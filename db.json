@@ -133,6 +133,38 @@
       "address": "Doi 6 Van Hoi Ninh Giang Hai Duong, Doi 6 Van Hoi Ninh Giang Hai Duong",
       "phone": "0339325678",
       "id": 1
+    },
+    {
+      "hang": [
+        {
+          "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434121/msivjgmjyuwfri0gdyym.jpg",
+          "name": "Ba chỉ bò",
+          "price": "200000",
+          "des": "Ba chỉ bò Mỹ đông lạnh - Frozen Boneless Beef Short Plate Xuất xứ : Mỹ Thành phần : Thịt bò Bảo quản: ≤ -18 o C Hạn sử dụng : 18 tháng kể từ ngày sản xuất Chế biến món ăn theo yêu cầu. Không sử dụng khi sản phẩm hết HSD\n",
+          "categoryId": "2",
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "address": "Doi 6 Van Hoi Ninh Giang Hai Duong",
+      "phone": "0982641483",
+      "id": 2
+    },
+    {
+      "hang": [
+        {
+          "img": "http://res.cloudinary.com/hait-10/image/upload/v1645434121/msivjgmjyuwfri0gdyym.jpg",
+          "name": "Ba chỉ bò",
+          "price": "200000",
+          "des": "Ba chỉ bò Mỹ đông lạnh - Frozen Boneless Beef Short Plate Xuất xứ : Mỹ Thành phần : Thịt bò Bảo quản: ≤ -18 o C Hạn sử dụng : 18 tháng kể từ ngày sản xuất Chế biến món ăn theo yêu cầu. Không sử dụng khi sản phẩm hết HSD\n",
+          "categoryId": "2",
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "address": "Doi 6 Van Hoi Ninh Giang Hai Duong",
+      "phone": "0982641483",
+      "id": 3
     }
   ]
 }

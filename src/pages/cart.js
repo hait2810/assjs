@@ -118,7 +118,11 @@ const Cart = {
                     address :document.querySelector("#address").value,
                     phone:document.querySelector("#phone").value
                   }
-                )
+                ).then(() => {
+                  alert("Thành công");
+                  localStorage.removeItem('cart');
+                  document.location.href="/"
+                })
         })   
     }
 }
