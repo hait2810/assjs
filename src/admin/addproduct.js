@@ -5,7 +5,7 @@ const AddProduct = {
   render() {
       
         return `
-        <div class="form-product w-[1600px]">
+        <div class="form-product w-[1600px] bg-green-100">
         <div class="input w-[1170px] mx-auto my-[20px]">
           <h2 class="font-bold text-[30px] text-green-800">THÊM SẢN PHẨM</h2>
           <form action="" id="form-add">
