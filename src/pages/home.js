@@ -54,7 +54,7 @@ const HomePage = {
     `;
   },
   afterRender(){
-    Header.afterRender();
+   
   }
 }
 
